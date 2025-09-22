@@ -66,11 +66,13 @@ $$
 $$
 
 对其关于时间求导，得到：
+
 $$
 \frac{d}{dt}(\mathbf{R}\mathbf{R}^\mathrm{T}) = \frac{d\mathbf{R}}{dt}\mathbf{R}^\mathrm{T} + \mathbf{R}\frac{d\mathbf{R}^\mathrm{T}}{dt} = 0
 $$
 
 注意 $\frac{d\mathbf{R}^\mathrm{T}}{dt} = \left(\frac{d\mathbf{R}}{dt}\right)^\mathrm{T}$，因此：
+
 $$
 \frac{d\mathbf{R}}{dt}\mathbf{R}^\mathrm{T} + \left(\frac{d\mathbf{R}}{dt}\mathbf{R}^\mathrm{T}\right)^\mathrm{T} = 0
 $$
@@ -78,6 +80,7 @@ $$
 这说明 $\frac{d\mathbf{R}}{dt}\mathbf{R}^\mathrm{T}$ 是一个反对称矩阵（即 $\mathbf{A}^\mathrm{T} = -\mathbf{A}$）。
 
 而实际上，该矩阵就是角速度的反对称矩阵：
+
 $$
 [\boldsymbol{\omega}]_\times =
 \begin{pmatrix}
@@ -88,10 +91,13 @@ $$
 $$
 
 从而：
+
 $$
 \frac{d\mathbf{R}}{dt}\mathbf{R}^\mathrm{T} = [\boldsymbol{\omega}]_\times
 $$
+
 即：
+
 $$
 \frac{d\mathbf{R}}{dt} = [\boldsymbol{\omega}]_\times \mathbf{R}
 $$
@@ -120,12 +126,7 @@ $$
 \mathbf{J} = \mathbf{R} \mathbf{J}_0 \mathbf{R}^\mathrm{T}
 $$
 
-**简要解释**：飞机自己看自己的转动惯量是固定的，世界看它时，由于姿态变了，转动惯量的方向也跟着变。
-
-#### 2.1.1 为什么不是简单的向量变换？
-
-- 惯量张量是二阶张量，必须用 $\mathbf{J} = \mathbf{R} \mathbf{J}_0 \mathbf{R}^\mathrm{T}$
-- 用错变换会导致物理和数学错误
+**简要解释**：飞机自己看自己的转动惯量是固定的，世界看它时，由于姿态变了，转动惯量的方向也跟着变。惯量张量是二阶张量，用错变换会导致物理和数学错误。
 
 ---
 
@@ -251,7 +252,9 @@ $$
 \exp([\mathbf{u}]_\times \theta) = I + ([\mathbf{u}]_\times \theta) + \frac{([\mathbf{u}]_\times \theta)^2}{2!} + \frac{([\mathbf{u}]_\times \theta)^3}{3!} + \cdots
 $$
 
-利用反对称矩阵的循环性质：$$[\mathbf{u}]_\times^3 = -[\mathbf{u}]_\times$$，$$[\mathbf{u}]_\times^4 = -[\mathbf{u}]_\times^2$$，$$[\mathbf{u}]_\times^5 = [\mathbf{u}]_\times$$
+利用反对称矩阵的循环性质：
+
+$$[\mathbf{u}]_\times^3 = -[\mathbf{u}]_\times$$，$$[\mathbf{u}]_\times^4 = -[\mathbf{u}]_\times^2$$，$$[\mathbf{u}]_\times^5 = [\mathbf{u}]_\times$$
 
 将级数按奇偶次幂分组：
 
@@ -279,6 +282,7 @@ $$
 ### 4.4 旋转矩阵的几种表达形式
 
 用旋转轴和度数表示：
+
 $$
 \mathbf{R} =
 \begin{pmatrix}
