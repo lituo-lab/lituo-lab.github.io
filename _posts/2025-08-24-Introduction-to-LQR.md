@@ -97,7 +97,7 @@ $$
 
 ### 1.5 仿真结果与可视化
 
-![倒立摆动画演示](/assets/img/2025-08-24-Introduction-to-PPO.gif)
+![倒立摆动画演示](/assets/img/2025-08-24-Introduction-to-LQR.gif)
 
 > **Note**: 仿真采用四阶龙格-库塔法进行数值积分，确保计算精度和稳定性。
 
