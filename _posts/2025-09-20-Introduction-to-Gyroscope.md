@@ -10,7 +10,7 @@ math: true
 
 陀螺和刚体动力学是经典力学的重要组成部分，不仅揭示了深刻的物理规律，还与日常生活现象密切相关。本文系统整理了学习过程中遇到的核心问题、思考路径与推导过程，并补充了相关拓展知识，便于深入理解和复习。
 
-<img src="/assets/img/gyroscope.jpg" alt="陀螺模型" style="zoom:60%;" />
+<img src="/assets/img/2025-09-20-Introduction-to-Gyroscope.jpg" alt="陀螺模型" style="zoom:60%;" />
 
 ---
 

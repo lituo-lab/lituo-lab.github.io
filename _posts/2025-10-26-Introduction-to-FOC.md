@@ -219,6 +219,8 @@ $$
 \text{目标位置} \xrightarrow{\text{位置环}} \mathbf{\omega_{ref} (\text{目标转速})} \xrightarrow{\text{速度环}} I_{q}^{ref} (\text{目标力矩电流}) \xrightarrow{\text{电流环}} V_{q}^{ref} (\text{电压指令})
 $$
 
+<img src="/assets/img/2025-10-26-Introduction-to-FOC.png" alt="FOC控制链路" style="zoom:60%;" />
+
 **控制流程解析**：
 
 1. **位置环**（可选）：输出目标转速 $\omega_{ref}$

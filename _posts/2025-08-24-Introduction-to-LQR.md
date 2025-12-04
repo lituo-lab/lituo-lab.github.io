@@ -10,7 +10,7 @@ math: true
 
 ### 1.1 数学物理模型
 
-<img src="/assets/img/Inverted_pendulum.png" alt="倒立摆模型" style="zoom:40%;" />
+<img src="/assets/img/2025-08-24-Introduction-to-LQR.png" alt="倒立摆模型" style="zoom:40%;" />
 
 ### 1.2 拉格朗日方程推导
 
@@ -97,7 +97,7 @@ $$
 
 ### 1.5 仿真结果与可视化
 
-![倒立摆动画演示](/assets/img/pendulum_lqr.gif)
+![倒立摆动画演示](/assets/img/2025-08-24-Introduction-to-PPO.gif)
 
 > **Note**: 仿真采用四阶龙格-库塔法进行数值积分，确保计算精度和稳定性。
 

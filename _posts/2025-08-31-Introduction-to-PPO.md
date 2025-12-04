@@ -12,12 +12,12 @@ math: true
 
 ### 1.1 物理模型
 
-<img src="/assets/img/Inverted_pendulum.png" alt="倒立摆模型" style="zoom:40%;" />
+<img src="/assets/img/2025-08-31-Introduction-to-PPO.png" alt="倒立摆模型" style="zoom:40%;" />
 
 ### 1.2 拉格朗日方程推导
 
 - **系统动能**：
-  $$ 
+  $$
   T = \underbrace{\frac{1}{2}M\dot{x}^2}_{\text{小车动能}} + \underbrace{\frac{1}{2}m\left(\dot{x}^2 + l^2\dot{\theta}^2 + 2l\dot{x}\dot{\theta}\cos\theta\right) + \frac{1}{2}\frac{1}{12}m(2l)^2\dot{\theta}^2}_{\text{杆的动能}}
   $$
 
@@ -47,7 +47,7 @@ math: true
   
 ### 1.4 控制效果
 
-![倒立摆动画演示](/assets/img/pendulum_ppo.gif)
+![倒立摆动画演示](/assets/img/2025-08-31-Introduction-to-PPO.gif)
 
 ---
 
